@@ -1,0 +1,11 @@
+let playerName = "Mario";
+let currentLives = 3;
+const level1 = 25;
+const level2 = 30;
+const level3 = 45;
+let midValue = 0;
+midValue = (level1 + level2 + level3) / 3;
+console.log("Giá trị trung bình coin của 3 level: " + midValue);
+console.log("Số coin dư của level1 khi chia cho 3: " + level1 % 3);
+console.log("Số coin dư của level2 khi chia cho 3: " + level2 % 3);
+console.log("Số coin dư của level3 khi chia cho 3: " + level3 % 3);
