@@ -4,7 +4,7 @@ test('has title', async ({ page }) => {
   await page.goto('https://e-commerce-dev.betterbytesvn.com/');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle("E-commerce site for automation testing");
+  await expect(page).toHaveTitle('E-commerce site for automation testing');
 });
 
 test('get started link', async ({ page }) => {
